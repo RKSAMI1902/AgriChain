@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriChain - Blockchain Supply Chain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌾 AgriChain</h1>
+    <p>Blockchain Based Agricultural Supply Tracking</p>
+
+    <div class="container">
+
+        <h2>Add Crop Entry</h2>
+        <input type="text" id="crop" placeholder="Crop Name">
+        <input type="text" id="owner" placeholder="Owner Name">
+        <input type="text" id="location" placeholder="Location">
+        <button onclick="addBlock()">Add Block</button>
+
+        <h2>Blockchain</h2>
+        <button onclick="displayChain()">View Blockchain</button>
+        <button onclick="validateChain()">Validate Blockchain</button>
+
+        <div id="output"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
